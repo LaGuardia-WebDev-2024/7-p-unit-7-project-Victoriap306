@@ -4,16 +4,24 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
+var leftX = 150;
+var sunRadius = 50;
 
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
- 
-  background(255,255,255,0);
-  // red ball on playground
-  ellipse(100,100,100,100)
-  
+    noStroke()
 
+  background(255,255,255,0);
+ 
+  // left cloud in the sky 
+  fill(255,255,255);
+  ellipse(leftX, 40, 100, 60);
+  ellipse(leftX+61, 45, 50, 35);
+
+  // sun
+  fill(255,170,0);
+  ellipse(400, 60, sunRadius, sunRadius);
 
 
 
