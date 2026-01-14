@@ -10,6 +10,8 @@ void setup() {
 draw = function(){
  
   background(255,255,255,0);
+  // red ball on playground
+  ellipse(100,100,100,100)
   
 
 
